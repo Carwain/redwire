@@ -1,0 +1,79 @@
+{
+    "nodes": [{
+            "name": "PC01",
+            "label": "192.168.1.10",
+            "id": 1
+        },
+        {
+            "name": "PC02",
+            "label": "192.168.1.31",
+            "id": 2
+        },
+        {
+            "name": "PC03",
+            "label": "192.168.1.15",
+            "id": 3
+        },
+        {
+            "name": "PC04",
+            "label": "192.168.1.30",
+            "id": 4
+        },
+        {
+            "name": "PC05",
+            "label": "192.168.1.16",
+            "id": 5
+        }
+    ],
+    "links": [{
+            "source": 1,
+            "target": 2,
+            "type": "VLAN01"
+        },
+        {
+            "source": 1,
+            "target": 3,
+            "type": "VLAN02"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "type": "VLAN03"
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "type": "VLAN04"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "type": "VLAN05"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "type": "VLAN06"
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "type": "VLAN07"
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "type": "VLAN08"
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "type": "VLAN09"
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "type": "VLAN10"
+        }
+    ]
+}

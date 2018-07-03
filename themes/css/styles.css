@@ -1,0 +1,49 @@
+html {
+    background-color: red;
+    color: white;
+}
+
+body {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Song Myung', serif;
+}
+
+h1,
+h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div {
+    display: block;
+    width: 100%;
+}
+
+.inline {
+    display: inline-block;
+    max-width: 600px;
+}
+
+.inline2 {
+    display: inline-block;
+    max-width: 340px;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.node {}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+    stroke-width: 1px;
+}
+
+svg {
+    background-color: white;
+}
